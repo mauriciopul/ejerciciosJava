@@ -25,7 +25,6 @@ f: Préstamos: XXXXXX
 g: Salario Neto a Recibir: XXXXX​
  */
 package ejercicio5;
-
 import javax.swing.JOptionPane;
 
 public class Ejercicio5 {
