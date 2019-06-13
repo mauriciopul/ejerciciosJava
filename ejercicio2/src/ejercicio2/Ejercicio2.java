@@ -8,7 +8,6 @@ nroKilos        %descuento
 Desarrollar un algoritmo que permita a la frutería y al cliente conocer cuanto pagará un cliente que compre manzanas. 
  */
 package ejercicio2;
-
 import javax.swing.JOptionPane;
 
 public class Ejercicio2 {
