@@ -5,7 +5,6 @@ Se requiere que en el desarrollo utilice la Estructura Cíclica Mientras.
 Ejemplo: N= 3567 --- SUMA= 21
  */
 package ejercicio4;
-
 import javax.swing.JOptionPane;
 
 public class Ejercicio4 {
@@ -50,5 +49,4 @@ public class Ejercicio4 {
             }
         }
     }
-
 }
