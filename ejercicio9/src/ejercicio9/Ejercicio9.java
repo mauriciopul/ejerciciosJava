@@ -1,4 +1,4 @@
-/*--->  ENUNCIADO
+/*--->  ENUNCIADO OK
 un grupo de 10 estudiantes presentan un examen de Física. Hacer un algoritmo que lea por cada estudiante la calificación obtenida. 
 Al finalizar calcule e imprima:​
 ​• not1 = La cantidad de estudiantes que obtuvieron una calificación menor a 50.
@@ -61,12 +61,15 @@ public class Ejercicio9 {
                 }
             }
         }
+        //Imprimir las notas en un listado
         String imp = "";
         for (int i = 0; i < 10; i++) {
             int cont = 1 + i;
-            imp = imp + cont + ":"+esp + notas[i] + "\n";
+            imp = imp + cont + ":" + esp + notas[i] + "\n";
         }
         JOptionPane.showMessageDialog(null, "Total Notas\n" + imp);
+
+        //Imprimir lo que requieren
         JOptionPane.showMessageDialog(
                 null, "Cantidad de estudiantes según sus NOTAS\n"
                 + "Menor a 50:" + esp + not1 + "\n"
