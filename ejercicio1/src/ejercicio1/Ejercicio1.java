@@ -18,7 +18,5 @@ public class Ejercicio1 {
         vlrDepositado = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el valor a depositar: "));
         vlrFuturo = vlrDepositado*((double)Math.pow(1.02,5*12));        
         JOptionPane.showMessageDialog(null, vlrFuturo);
-
     }
-
 }
