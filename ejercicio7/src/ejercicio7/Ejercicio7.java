@@ -105,12 +105,16 @@ public class Ejercicio7 {
         }
         promHom = (double) sumaHom / hombre;
         promMuj = (double) sumaMuj / mujer;
-        
-/*Si el valor final del promedio Mujer es NaN se convierte en 0 para imprimir*/
-        if (isNaN(promMuj)) promMuj = 0;
-        
-/*Si el valor final del promedio Hombre es NaN se convierte en 0 para imprimir*/
-        if (isNaN(promHom)) promHom = 0;
+
+        /*Si el valor final del promedio Mujer es NaN se convierte en 0 para imprimir*/
+        if (isNaN(promMuj)) {
+            promMuj = 0;
+        }
+
+        /*Si el valor final del promedio Hombre es NaN se convierte en 0 para imprimir*/
+        if (isNaN(promHom)) {
+            promHom = 0;
+        }
 
         JOptionPane.showMessageDialog(null, "Total de personas en la fiesta\n"
                 + "Hombres: " + Math.round(hombre) + "\n"
