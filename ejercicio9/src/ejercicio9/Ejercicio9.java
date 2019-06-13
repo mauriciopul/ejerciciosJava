@@ -12,7 +12,6 @@ package ejercicio9;
 import javax.swing.JOptionPane;
 
 public class Ejercicio9 {
-
     //Validar que el dato ingresado sea número
     private static boolean esNumero(String cadena) {
         try {
