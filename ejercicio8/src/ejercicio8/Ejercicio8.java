@@ -1,4 +1,4 @@
-/*--->  ENUNCIADO
+/*--->  ENUNCIADO OK
 hacer un algoritmo que imprima el costo de una llamada telefónica, capturando la duración de 
 la llamada en minutos y conociendo lo siguiente:
 • Toda llamada que dure tres minutos o menos tiene un costo de $200.
@@ -49,5 +49,4 @@ public class Ejercicio8 {
                     + "Costo de la llamada: " + vlrLlam);
         }
     }
-
 }
