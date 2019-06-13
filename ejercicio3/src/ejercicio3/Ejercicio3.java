@@ -1,4 +1,4 @@
-/*--->  ENUNCIADO
+/*--->  ENUNCIADO OK
 Dada la siguiente función:
 Y= x^2 – 2x 
 Se requiere desarrollar un algoritmo que imprima en pantalla, para valores de x desde 1 a 10, lo siguiente:
@@ -49,7 +49,6 @@ public class Ejercicio3 {
                 ult5 = ult5 + Integer.toString(c) + " - ";
                 System.out.println("ultimo:" + ult + " <=======<");
             }
-
         }
         System.out.println("Suma total de Y: " + sumaTot);
         System.out.println("Múltiplos de 3: " + mult3);
